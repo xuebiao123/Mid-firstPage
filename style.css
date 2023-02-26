@@ -1,64 +1,189 @@
-html, body {
-  margin: 0;
-  padding: 0;
-}
-canvas {
-  display: block;
+.flex-container{
+  display: flex; /* all children will now be flex items */
+  flex-direction: row; /* other option is column */
+  flex-wrap: wrap; /* means the children will wrap to a new line */
 }
 
-body{
-  background: white;
+.flex-item{
+  display: flex;
+  /* the following three items can be put on one line: https://developer.mozilla.org/en-US/docs/Web/CSS/flex */
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 25%; /*width of the box, take up a quarter of the parent's size*/
+  box-sizing: border-box; /*this means that we can add padding, line below, and still only take 25% width of parent*/
+  padding: 5px;
 }
 
-main{
-  width: 100%;
-  height:100%;
+.flex-item part1{
+  display: flex;
+    width: 16%;
+    height: 12cm;
+    /* padding: 30% 0; */
+    background-image: url(../assets/images/part1.png);
+    background-position: center;
+    background-size: 236%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #4f4f4f;
+    transition: all 0.2s;
+    position: fixed;
+    left: 1.3cm;
+    top: 170px;
+    opacity: 0.5;
+  }
+
+    .flex-item part2{
+      display: flex;
+        width: 16%;
+        height: 12cm;
+        background-image: url(../assets/images/part2.png);
+        background-position: center;
+        background-size: 236%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        color: #4f4f4f;
+        transition: all 0.2s;
+        position: fixed;
+        left: 8.7cm;
+        top: 170px;
+        opacity: 0.6;
+      }
+
+      .flex-item part3{
+        display: flex;
+          width: 16%;
+          height: 12cm;
+          background-image: url(../assets/images/part3.png);
+          background-position: center;
+          background-size: 236%;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          text-decoration: none;
+          color: #4f4f4f;
+          transition: all 0.2s;
+          position: fixed;
+          left: 16.1cm;
+          top: 170px;
+          opacity: 0.5;
+        }
+
+        .flex-item part4{
+          display: flex;
+            width: 16%;
+            height: 12cm;
+            background-image: url(../assets/images/part4.png);
+            background-position: center;
+            background-size: 236%;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            text-decoration: none;
+            color: #4f4f4f;
+            transition: all 0.2s;
+            position: fixed;
+            left: 23.5cm;
+            top: 170px;
+            opacity: 0.6;
+          }
+
+          .flex-item part5{
+            display: flex;
+              width: 16%;
+              height: 12cm;
+              background-image: url(../assets/images/part5.png);
+              background-position: center;
+              background-size: 236%;
+              justify-content: center;
+              align-items: center;
+              text-align: center;
+              text-decoration: none;
+              color: #4f4f4f;
+              transition: all 0.2s;
+              position: fixed;
+              left: 30.8cm;
+              top: 170px;
+              opacity: 0.6;
+            }
+
+.flex-item part1:hover{
+  color:#bbbbbb;
+  background-size: 250%;
 }
 
-#sketch-container{
-  width: 100%;
-  height: 100%;
+.flex-item part2:hover{
+  color:#bbbbbb;
+  background-size: 250%;
+}
+.flex-item part3:hover{
+  color:#bbbbbb;
+  background-size: 250%;
+}
+.flex-item part4:hover{
+  color:#bbbbbb;
+  background-size: 250%;
+}
+.flex-item part5:hover{
+  color:#bbbbbb;
+  background-size: 250%;
 }
 
-#gui-container{
-  width: 100%;
-  margin: 10px 0;
-  box-sizing: border-box;
+.flex-item h1{
+ margin:10px;
+ padding:5px 10px;
+ position: fixed;
+ left: 115px;
+ top: 546px;
 }
 
-/*styled button */
+.flex-item h2{
+  margin:10px;
+  padding:5px 10px;
+  position: fixed; 
+  left: 10.3cm; 
+  top: 546px; 
+ }
 
+ .flex-item h3{
+  margin:10px;
+  padding:5px 10px;
+  position: fixed; 
+  left: 17.7cm; 
+  top: 546px; 
+ }
 
-.button{
-  background-color: #371bd3;
-  border: solid 1px #371bd3;
-  border-radius: 10px;
-  color: white;
-  padding: 15px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  margin:0 auto;
-  font-size: 16px;
-  min-width: 200px;
-  cursor: pointer;
-}
+ .flex-item h4{
+  margin:10px;
+  padding:5px 10px;
+  position: fixed; 
+  left: 25.2cm; 
+  top: 546px; 
+ }
 
+ .flex-item h5{
+  margin:10px;
+  padding:5px 10px;
+  position: fixed; 
+  left: 32.5cm; 
+  top: 546px; 
+ }
 
+h6{
+  margin:10px;
+  padding:5px 10px;
+  position: fixed; 
+  left: 1cm; 
+  top: 1.4cm; 
+ }
 
-.button:hover{
-  background-color:white;
-  color: #371bd3;
-}
-
-
-
-/*add inactive state styling*/
-
-
-.button.inactive{
-  cursor:default;
-  background-color: lightgray;
-  border-color: lightgray;
-  color: white;
-}
+ h7{
+  margin:10px;
+  padding:5px 10px;
+  position: fixed; 
+  left: 29.8cm; 
+  top: 17.8cm; 
+ }
