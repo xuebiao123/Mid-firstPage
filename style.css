@@ -19,7 +19,7 @@
     width: 16%;
     height: 12cm;
     /* padding: 30% 0; */
-    background-image: url(../assets/images/part1.png);
+    background-image: url(part1.png);
     background-position: center;
     background-size: 236%;
     justify-content: center;
@@ -38,7 +38,7 @@
       display: flex;
         width: 16%;
         height: 12cm;
-        background-image: url(../assets/images/part2.png);
+        background-image: url(part2.png);
         background-position: center;
         background-size: 236%;
         justify-content: center;
@@ -57,7 +57,7 @@
         display: flex;
           width: 16%;
           height: 12cm;
-          background-image: url(../assets/images/part3.png);
+          background-image: url(part3.png);
           background-position: center;
           background-size: 236%;
           justify-content: center;
@@ -76,7 +76,7 @@
           display: flex;
             width: 16%;
             height: 12cm;
-            background-image: url(../assets/images/part4.png);
+            background-image: url(part4.png);
             background-position: center;
             background-size: 236%;
             justify-content: center;
@@ -95,7 +95,7 @@
             display: flex;
               width: 16%;
               height: 12cm;
-              background-image: url(../assets/images/part5.png);
+              background-image: url(part5.png);
               background-position: center;
               background-size: 236%;
               justify-content: center;
@@ -185,5 +185,5 @@ h6{
   padding:5px 10px;
   position: fixed; 
   left: 29.8cm; 
-  top: 17.7cm; 
+  top: 17.8cm; 
  }
