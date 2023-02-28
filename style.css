@@ -1,3 +1,11 @@
+main{
+  width:100%;
+  max-width:1400px; /* means it won't be larger than 1200px on larger screens */
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 3%;
+}
+
 .flex-container{
   display: flex; /* all children will now be flex items */
   flex-direction: row; /* other option is column */
@@ -29,8 +37,8 @@
     color: #4f4f4f;
     transition: all 0.2s;
     position: fixed;
-    left: 1.3cm;
-    top: 170px;
+    left: 3.5%;
+    top: 21.5%;
     opacity: 0.5;
   }
 
@@ -48,8 +56,8 @@
         color: #4f4f4f;
         transition: all 0.2s;
         position: fixed;
-        left: 8.7cm;
-        top: 170px;
+        left: 23%;
+        top: 21.5%;
         opacity: 0.6;
       }
 
@@ -67,8 +75,8 @@
           color: #4f4f4f;
           transition: all 0.2s;
           position: fixed;
-          left: 16.1cm;
-          top: 170px;
+          left: 42.3%;
+          top: 21.5%;
           opacity: 0.5;
         }
 
@@ -86,8 +94,8 @@
             color: #4f4f4f;
             transition: all 0.2s;
             position: fixed;
-            left: 23.5cm;
-            top: 170px;
+            left: 61.8%;
+            top: 21.5%;
             opacity: 0.6;
           }
 
@@ -105,8 +113,8 @@
               color: #4f4f4f;
               transition: all 0.2s;
               position: fixed;
-              left: 30.8cm;
-              top: 170px;
+              left: 81.3%;
+              top: 21.5%;
               opacity: 0.6;
             }
 
@@ -136,16 +144,16 @@
  margin:10px;
  padding:5px 10px;
  position: fixed;
- left: 115px;
- top: 546px;
+ left: 8%;
+ top: 69%;
 }
 
 .flex-item h2{
   margin:10px;
   padding:5px 10px;
   position: fixed; 
-  left: 10.3cm; 
-  top: 546px; 
+  left: 27.5%; 
+  top: 69%; 
  }
 
  .flex-item h3{
@@ -153,7 +161,7 @@
   padding:5px 10px;
   position: fixed; 
   left: 17.7cm; 
-  top: 546px; 
+  top: 69%; 
  }
 
  .flex-item h4{
@@ -161,7 +169,7 @@
   padding:5px 10px;
   position: fixed; 
   left: 25.2cm; 
-  top: 546px; 
+  top: 69%; 
  }
 
  .flex-item h5{
@@ -169,21 +177,21 @@
   padding:5px 10px;
   position: fixed; 
   left: 32.5cm; 
-  top: 546px; 
+  top: 69%; 
  }
 
 h6{
   margin:10px;
   padding:5px 10px;
   position: fixed; 
-  left: 1cm; 
-  top: 1.4cm; 
+  left: 2.2%; 
+  top: 6%; 
  }
 
  h7{
   margin:10px;
   padding:5px 10px;
   position: fixed; 
-  left: 29.8cm; 
-  top: 17.8cm; 
+  left: 78.5%; 
+  top: 86%; 
  }
