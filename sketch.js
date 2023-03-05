@@ -1,3 +1,6 @@
+// background reference code：https://openprocessing.org/sketch/1655174
+// text reference code：https://openprocessing.org/sketch/1736456
+
 n = 0.01
 a = 0.1
 particle = []
@@ -14,12 +17,7 @@ let drawText = true
 
 var canvas;
 
-// function windowResized(){
-// 	resizeCanvas(windowWidth, windowHeight);
-// 	background(175, 150, 70);
-// }
-
-// 背景
+// backgroud
 function setup() {
 	canvas = createCanvas(windowWidth, windowHeight);
 	canvas.position(0,0);
@@ -104,17 +102,7 @@ for (let i = 0; i < alphabet.length; i++) {
       posX = 20
     }
   }
-  //image(extraCanvas,0,0);
   pop();
-
-// 交互
-// push();
-//   noStroke();
-//   fill(10,2);
-//   for(let i=0;i<5;i++){
-//   rect(width/28 + i * 280, height/5+15, width/20+150, 450);
-//   }
-// pop();
 }
 
 function getUniqCharacters() {
